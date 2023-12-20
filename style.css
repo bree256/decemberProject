@@ -31,14 +31,15 @@ header {
 }
 section {
   display: flex;
+}
+.section1 {
+  padding-left: 40px;
+  display: flex;
   background: linear-gradient(#98c6ad, #e8f3ed, #ecd282);
-  /* justify-content: center;*/
 }
 h1 {
   width: 538px;
   height: 201px;
-  top: 157px;
-  left: 139px;
   font-weight: 900;
   font-size: 60px;
   line-height: 66.64px;
@@ -62,7 +63,8 @@ h1 {
   border-radius: 30px;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 80px;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 #image1 {
   padding-top: 40px;
@@ -70,7 +72,7 @@ h1 {
 .footer1 {
   display: flex;
   align-items: center;
-  height: 150px;
+  padding-left: 30px;
 }
 #icon {
   height: 80px;
@@ -97,16 +99,90 @@ h3 {
   justify-content: space-around;
   width: 100%;
 }
+.section2 {
+  height: 800px;
+  display: flex;
+  background: linear-gradient(#98c6ad, #e8f3ed, #ecd282);
+}
+.section3 {
+  background: linear-gradient(#ecd282, #e8f3ed, #98c6ad);
+}
+.section4 {
+  background: linear-gradient(#ecd282, #e8f3ed, #98c6ad);
+}
+.circle {
+  width: 50%;
+}
+.circle-big {
+  border-radius: 50%;
+  margin-left: 220px;
+  margin-top: 244px;
+}
+.circle-one {
+  left: 196px;
+  bottom: -534px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-two {
+  position: absolute;
+  border-radius: 50%;
+  bottom: -563px;
+  left: 409px;
+}
+
+.circle-three {
+  border-radius: 50%;
+  position: absolute;
+  left: 525px;
+  bottom: -762px;
+  background-color: #d9d9d9;
+}
+
+.circle-four {
+  left: 445px;
+  bottom: -993px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #0a7569;
+  width: 200px;
+  height: 183px;
+}
+
+.circle-five {
+  bottom: -1066px;
+  left: 229px;
+  border-radius: 50%;
+  position: absolute;
+  border: 8px solid #0a7569;
+}
+
+.circle-six {
+  left: 40px;
+  bottom: -942px;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle-seven {
+  bottom: -704px;
+  left: 25px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #0a7569;
+}
 .div3 {
   margin-left: 60px;
+  width: 50%;
 }
 .section3 {
   padding-bottom: 40px;
   padding-top: 20px;
+  background: linear-gradient(#ecd282, #e8f3ed, #98c6ad);
+  display: flex;
 }
 .iphone {
   position: relative;
-  margin-left: 80px;
 }
 #iphone1 {
   position: relative;
@@ -185,4 +261,47 @@ ul {
 #li2 {
   margin-right: 100px;
   margin-top: 30px;
+}
+.button3 {
+  padding: 15px 15px;
+  width: 150px;
+  background-color: #f8a208;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.button4 {
+  padding: 15px 15px;
+  width: 150px;
+  background-color: #f8a208;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.div2 {
+  width: 50%;
+  margin-right: -25px;
+}
+.button5 {
+  padding: 15px 15px;
+  width: 150px;
+  background-color: #f8a208;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 60px;
+  margin-top: 60px;
 }
