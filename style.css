@@ -135,7 +135,7 @@ h3 {
 .circle-three {
   border-radius: 50%;
   position: absolute;
-  left: 525px;
+  left: 533px;
   bottom: -762px;
   background-color: #d9d9d9;
 }
@@ -304,4 +304,71 @@ ul {
   cursor: pointer;
   margin-left: 60px;
   margin-top: 60px;
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .circle {
+    width: 50%;
+  }
+  .circle-big {
+    border-radius: 50%;
+    margin-left: 220px;
+    margin-top: 244px;
+  }
+  .circle-one {
+    left: 198px;
+    bottom: -534px;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .circle-two {
+    position: absolute;
+    border-radius: 50%;
+    bottom: -521px;
+    left: 409px;
+  }
+
+  .circle-three {
+    border-radius: 50%;
+    position: absolute;
+    left: 533px;
+    bottom: -762px;
+    background-color: #d9d9d9;
+  }
+
+  .circle-four {
+    left: 445px;
+    bottom: -993px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #0a7569;
+    width: 200px;
+    height: 183px;
+  }
+
+  .circle-five {
+    bottom: -1066px;
+    left: 229px;
+    border-radius: 50%;
+    position: absolute;
+    border: 8px solid #0a7569;
+  }
+
+  .circle-six {
+    left: 49px;
+    bottom: -945px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  .circle-seven {
+    bottom: -704px;
+    left: 25px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #0a7569;
+  }
+  .div3 {
+    margin-left: 60px;
+    width: 50%;
+  }
 }
